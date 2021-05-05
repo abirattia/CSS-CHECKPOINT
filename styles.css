@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color:midnightblue;
+    display: flex;
+    justify-content: space-between;
+    color: navajowhite;
+    padding-left:  30px;
+    }
+
+.navbar div{
+    padding-right: 10%;
+    text-align: justify;
+    }
+
+.navbar div a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: x-large;
+    color:navajowhite
+    }
+
+.body{
+        background-color:midnightblue ;
+        color:oldlace;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        word-spacing: 20px;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+.footer{
+    display: flex;
+    justify-content:space-around;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:lightslategrey;
+    }  
+
+.footer div  {
+    margin: 20px;
+}
+.form div {
+    background-color:midnightblue ;
+    color:oldlace;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-style: dotted;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.form{
+    background-color:midnightblue ;
+    color:oldlace;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.projects{
+    background-color:midnightblue ;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    display:flex;
+}
+
+.project {
+    background-color:rgb(132, 132, 170) ;
+    border-style: double;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
+} 
+
+.projects p {
+    background-color:rgb(132, 132, 170) ;
+    color:oldlace;
+    justify-content: space-around;
+    margin:10%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+.projects h2 {
+    background-color:rgb(132, 132, 170) ;
+    color:black;
+    text-align:center;
+    font-weight: bold;
+    }
+
+.title h1{
+    background-color:midnightblue ;
+    color:oldlace;
+    }
